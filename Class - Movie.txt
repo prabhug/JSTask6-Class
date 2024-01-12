@@ -1,0 +1,28 @@
+<script>
+        
+class Movie{
+    constructor(title,studio,rating="PG"){
+        this.title = title;
+        this.studio = studio;
+        this.rating = rating;
+    }
+
+}
+
+let out1 = new Movie("new1","new1 Films");
+let out2 = new Movie("new2","new2 Films", "PG2");
+let out3 = new Movie("new3","new3 Films", "PG3");
+let out4 = new Movie("Casino Royale","Eon Productions", "PG13");
+
+let cons = [out1,out2,out3,out4];
+
+console.log(out1);
+console.log(out2);
+console.log(out3);
+console.log(out4);
+
+let finalout = cons.filter((ele) => ele.rating === "PG");
+
+console.log(finalout);
+
+</script>

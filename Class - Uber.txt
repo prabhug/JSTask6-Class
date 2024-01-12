@@ -1,0 +1,16 @@
+<script>
+class Uber{
+    constructor(name,mobile,kms){
+        this.name = name;
+        this.mobile = mobile;
+        this.kms = kms;
+    }
+    get Uberprice(){
+        return this.kms*8;
+    }
+}
+
+let out = new Uber("PRABHUG",123456789,20);
+
+console.log(`Hi ${out.name}, please find your mobile number: ${out.mobile} and final price for your ride Rs. ${out.Uberprice}`);
+    </script>

@@ -1,0 +1,12 @@
+<script>   
+class Person{
+    constructor(name,dob,number,age){
+        this.name = name;
+        this.number = number;
+        this.dob = dob;
+        this.age = age;
+    }
+}
+let out = new Person("PRABHUG","11/11/1999",123456789,25);
+console.log(out);
+    </script>
